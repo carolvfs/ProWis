@@ -1,0 +1,83 @@
+.setup {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 800px 1fr;
+    grid-template-rows:
+        500px
+        200px
+        1fr;
+    grid-template-areas:
+        "projection-area table-area"
+        "projection-area physics-area"
+        "projection-area workflow-area"
+        ;
+    height: 90vh;
+}
+
+.projection-area {
+    grid-area: projection-area;
+    display: flex;
+    border-radius: 5px;
+
+}
+
+.table-area {
+    grid-area: table-area;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.physics-area {
+    grid-area: physics-area;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+th {
+    color: hsl(180, 100%, 35%);
+}
+
+.setup-form-span-date, .setup-form-span-coarse, .setup-form-span-latlon {
+    background-color: hsl(180, 60%, 20%);
+    border: none;
+    font-size       : 10px;
+    color           : hsl(160, 29%, 77%);
+    
+}
+
+.setup-form-input-date {
+    font-size: x-small;
+    max-width: 190px;
+    border: none;
+}
+
+.setup-form-input-coarse {
+    font-size: x-small;
+    max-width: 80px;
+
+}
+
+.setup-form-input-latlon {
+    font-size: x-small;
+    max-width: 90px;
+    border          : 1.0px solid hsla(0, 0%, 100%, 0.416);
+}
+
+.setup-form-input-date:focus, .setup-form-input-coarse:focus, .setup-form-input-latlon:focus{
+    box-shadow: none;
+}
+
+.setup-physics-area-title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: var(--theme-color);
+    font-weight: bold;
+}
+
+.setup-physics-process-title {
+    padding: 2px;
+    color: var(--theme-color-2);
+    font-size: small;
+    font-weight: bold;
+}

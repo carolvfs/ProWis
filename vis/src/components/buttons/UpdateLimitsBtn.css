@@ -1,0 +1,49 @@
+.prob-update-btn {
+    color           : hsl(180, 60%, 20%);
+    border          : 1.0px solid hsl(180, 60%, 25%);
+    font-size       : small;
+    /* color           : hsl(160, 29%, 77%); */
+    height          : 25px;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.prob-update-btn:hover {
+    background-color: var(--theme-color-2);
+    border          : 1.0px solid hsl(180, 60%, 25%);
+}
+
+.prob-update-modal-btn {
+
+    background-color:cornflowerblue;
+    color           : hsl(180, 60%, 20%);
+
+    /* background-color: hsl(180, 60%, 20%); */
+    border          : 1.0px solid hsl(180, 60%, 25%);
+    font-size       : 14px;
+    /* color           : hsl(160, 29%, 77%); */
+    /* height          : 30px; */
+}
+
+.prob-update-modal-btn:hover {
+    background-color: var(--theme-color-2);
+    color: white;
+}
+
+.prob-update-modal-btn-label {
+    color: grey;
+}
+
+.prob-update-modal-btn-ok {
+    background-color: hsl(180, 100%, 30%);
+    color: #FFF;
+}
+
+.prob-update-modal-btn-ok:hover {
+    background-color: var(--theme-color-2);
+    color: #FFF;
+}
+
+.prob-update-modal-btn-icon {
+    margin-right: 5px;
+}

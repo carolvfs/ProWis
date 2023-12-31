@@ -1,0 +1,26 @@
+.project-btn {
+
+    box-shadow: 0px 0px 5px #0004;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 20px;
+
+    border: 1px solid #00cccc;
+    background-color: white;
+    color: #00cccc;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.project-btn:focus {
+    box-shadow: 0px 0px 5px #0004;
+}
+
+.project-btn:hover {
+    box-shadow: 0px 0px 5px #0004;
+    background-color: #00cccc;
+    color: white;
+}

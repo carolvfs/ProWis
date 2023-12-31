@@ -1,0 +1,66 @@
+.graph {
+    position: absolute;
+}
+
+.graph-svg {
+    --green: hsla(180, 100%, 20%);
+
+    overflow: visible;
+    /* background-color: aquamarine; */
+    background-color: white;
+    /* border: 1.8px dashed rgb(207, 205, 205);
+    border-radius: 3px; */
+}
+
+.edge {
+    fill: none;
+    stroke: hsl(0, 0%, 80%);
+    stroke-width: 2px;
+}
+
+.node {
+    cursor: pointer;
+    stroke-width: 2.5px;
+}
+
+.node-options {
+    position: absolute;
+    font-size: small;
+    width: max-content;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.153));
+
+
+}
+
+.node-item {
+    opacity: 0.95;
+}
+
+.node-item-alert, .node-item-alert:hover{
+    /* color:brown; */
+    color:coral;
+
+}
+
+
+.node text {
+    font: 12px sans-serif;
+    fill: whitesmoke;
+    pointer-events: none;
+    font-style: normal;
+    overflow:hidden;
+}
+
+.node-description-text {
+    font-size: small;
+    font-style: normal;
+}
+
+.node-description-background {
+    fill:rgb(0, 0, 0);
+    fill-opacity: 0.8;
+}
+
+.node-options {
+    position: relative
+}

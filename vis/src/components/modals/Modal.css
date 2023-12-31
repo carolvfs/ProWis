@@ -1,0 +1,51 @@
+.system-modal-header {
+    color: hsl(0, 1%, 32%);
+ }
+
+ .system-modal-body {
+    color: hsl(0, 1%, 32%);
+
+ }
+
+ .system-modal-ok {
+    background-color: hsl(180, 100%, 30%);
+    color: #FFF;
+ }
+
+ .system-modal-ok:hover {
+    background-color: var(--theme-color-2);
+    color: #FFF;
+}
+
+.system-modal-ok:focus, .system-modal-Close:focus {
+    /* box-shadow: 0px 0px 10px #0004; */
+    box-shadow: none;
+}
+
+.system-modal-radio {
+   cursor: pointer;
+
+}
+
+
+.system-modal-radio:checked {
+   background-color: var(--theme-color-2);
+   border: none;
+
+}
+
+.system-modal-form {
+   font-size: small;
+   
+}
+
+.system-modal-label {
+   font-size: small;
+
+}
+
+.system-modal-form-input:focus{
+   box-shadow: none;
+   border-color: grey;
+
+}

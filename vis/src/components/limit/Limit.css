@@ -1,0 +1,52 @@
+.prob-input-wrapper {
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+.prob-input-span {
+  background-color: hsl(180, 60%, 20%);
+  color           : hsl(160, 29%, 77%);
+  cursor : default;
+  height: 25px;
+  max-width: 55px;
+  font-size: small;
+  padding: 0px 5px 0px 5px;
+}
+
+.prob-input-prec {
+  height   : 25px;
+  max-width: 60px;
+  font-size: small;
+
+}
+
+.prob-input-acc {
+  height   : 25px;
+  max-width: 45px;
+  font-size: small;
+}
+
+.prob-input {
+  height   : 25px;
+  max-width: 60px;
+  font-size: small;
+}
+
+.prob-input:focus, .prob-input-prec:focus, .prob-input-acc:focus {
+  border-color: hsl(160, 29%, 77%);
+  box-shadow: none;
+
+}
+
+/* .prob-input-prec {
+  height   : 25px;
+  max-width: 60px;
+  font-size: 14px;
+  font-style: normal;
+
+} */
+
+/* .prob-input-acc {
+  
+} */

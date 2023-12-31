@@ -1,0 +1,17 @@
+th {
+    color:  var( --theme-color-2);
+}
+
+.trashLabel {
+    color: grey;
+}
+
+.trashOkBtn {
+    background-color: hsl(180, 100%, 30%);
+    color: #FFF;
+}
+
+.trashOkBtn:hover {
+    background-color: var(--theme-color-2);
+    color: #FFF;
+}

@@ -1,0 +1,34 @@
+.setup-save-btn {
+
+    background-color:cornflowerblue;
+    color           : hsl(180, 60%, 20%);
+
+    /* background-color: hsl(180, 60%, 20%); */
+    border          : 1.0px solid hsl(180, 60%, 25%);
+    font-size       : 14px;
+    /* color           : hsl(160, 29%, 77%); */
+    /* height          : 30px; */
+}
+
+.setup-save-btn:hover {
+    background-color: var(--theme-color-2);
+    color: white;
+}
+
+.setup-save-btn-label {
+    color: grey;
+}
+
+.setup-save-btn-ok {
+    background-color: hsl(180, 100%, 30%);
+    color: #FFF;
+}
+
+.setup-save-btn-ok:hover {
+    background-color: var(--theme-color-2);
+    color: #FFF;
+}
+
+.setup-save-btn-icon {
+    margin-right: 5px;
+}

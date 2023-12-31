@@ -1,0 +1,23 @@
+.scatter-svg {   
+    /* border: 1.8px dashed rgb(207, 205, 205);
+    border-radius: 3px; */
+}
+
+.scatter-id {
+    font-style: normal;
+    font-weight:normal;
+    fill: white;
+    text-anchor: middle;
+    cursor: default;
+    pointer-events: none;
+}
+
+.scatter-x-axis, .scatter-y-axis {
+    font-style: normal;
+    font-weight:normal;
+    color: grey;
+}
+
+.scatter-data {
+    cursor: default;
+}

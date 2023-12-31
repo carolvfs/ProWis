@@ -1,0 +1,27 @@
+.hmap-svg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hmap-tjon {
+    fill: none;
+    stroke: rgb(61, 60, 60);
+    stroke-linejoin: round;
+    stroke-width: 1.0px;
+}
+
+.hmap-pin {
+  /* fill: #31558d; */
+  fill: purple;
+  fill-opacity: .75;
+  stroke: black;
+	transition: all .2s ease-in-out;
+
+}
+
+/* .hmap-pin:hover {
+  fill: #8d3155;
+  fill-opacity: 1;
+  cursor: pointer;
+} */

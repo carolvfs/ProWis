@@ -1,0 +1,101 @@
+.analyses {
+    /* margin: 0px; */
+    display: grid;
+    /* grid-template-columns: var(--overview-content-1-width) 1fr; */
+    /* grid-template-columns: 0.4fr 0.6fr; */
+    grid-template-columns: 260px 1100px 1fr;
+    /* grid-template-columns: 0.15fr 0.55fr 0.3fr; */
+    grid-template-rows:
+        0.4fr
+        0.25fr
+        0.35fr
+    /* grid-template-areas:
+        "analyses-content-1 analyses-content-3 analyses-content-4"
+        "analyses-content-2 analyses-content-3 analyses-content-4" */
+        ;
+
+    grid-template-areas:
+        "analyses-content-1 analyses-content-3 analyses-content-4"
+        "analyses-content-2 analyses-content-3 analyses-content-4"
+        "analyses-content-5 analyses-content-3 analyses-content-4"
+    ;
+    
+    height: 100vh;
+    /* position: relative; */
+}
+
+.analyses-content-1 {
+    grid-area: analyses-content-1;
+    border: 1.8px dashed rgb(207, 205, 205);
+    border-radius: 3px;
+    margin: 2px;
+    /* padding: 10px; */
+
+    /* padding: 0px 0px 0px 0px; */
+}
+
+.analyses-content-2 {
+    grid-area: analyses-content-2;
+    border: 1.8px dashed rgb(207, 205, 205);
+    border-radius: 3px;
+    margin: 2px;
+
+    /* padding: 0px 0px 0px 0px; */
+}
+
+.analyses-content-3 {
+    grid-area: analyses-content-3;
+    border: 1.8px dashed rgb(207, 205, 205);
+    border-radius: 3px;
+    margin: 2px;
+
+    /* padding: 5px 5px 5px 5px; */
+}
+
+.analyses-content-4 {
+    grid-area: analyses-content-4;
+    border: 1.8px dashed rgb(207, 205, 205);
+    border-radius: 3px;
+    margin: 2px;
+
+    /* padding: 5px 5px 5px 5px; */
+}
+
+.analyses-content-5 {
+    grid-area: analyses-content-5;
+    border: 1.8px dashed rgb(207, 205, 205);
+    border-radius: 3px;
+    margin: 2px;
+
+    /* padding: 5px 5px 5px 5px; */
+}
+
+.analyses-hmap-container {
+    border: 1.8px solid rgb(207, 205, 205);
+    border-radius: 3px;
+    width: 470px;
+    margin-top: 5px;
+    height: 275px;
+}
+
+.analyses-hmap-title {
+    justify-content: center;
+    font-size: x-small;
+    align-content: center;
+    height: 40px;
+}
+
+.analyses-sb-title {
+    font-size: x-small;
+    justify-content:center;
+    align-content: center;
+    margin-top: 10px;
+    height: 10px;
+
+}
+
+.analysis-prob-inputs-row {
+    margin-top: 10px;
+    display: inline-flex;
+
+}

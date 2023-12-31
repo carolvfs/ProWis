@@ -1,0 +1,59 @@
+.tseries-svg {   
+    border: 1.8px solid rgb(207, 205, 205);
+    border-radius: 3px;
+    margin: 5px;
+    background-color: rgba(245, 245, 245, 0.526);
+
+}
+
+.tseries-x-axis {
+    font-style: normal;
+    font-weight:normal;
+}
+
+.tseries-y-axis {
+    font-style: normal;
+    font-weight:normal;
+    pointer-events: none;
+}
+
+.tseries-x-axis g.tick {
+    cursor: pointer;
+    
+}
+
+.tseries-path {
+    /* stroke: hsl(193, 100%, 50%); */
+    stroke-width: 2;
+    fill: none;
+}
+
+#tseries-path-prec {
+    fill:#0099cc ;
+    fill-opacity: 0.3;
+}
+
+
+.tseries-timeLine {
+    fill: none;
+    stroke:var(--theme-color-2);
+    stroke-width: 1.5;
+}
+
+.timeInterval {
+    stroke:var(--theme-color-2);
+    stroke-width: 1.5;
+    fill: #777;
+    fill-opacity: 0.3;
+
+}
+
+.tseries-title {
+    fill:rgba(169, 167, 167, 0.209);
+    /* fill: none; */
+    font-weight: bold;
+    font-size: 45px;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

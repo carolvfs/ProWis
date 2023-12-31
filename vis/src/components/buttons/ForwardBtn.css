@@ -1,0 +1,20 @@
+.forward-btn {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 380;
+    padding: 5px 8px 5px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    /* font-size: small; */
+
+}
+
+.forward-btn-icon {
+    margin-left: 8px;
+}
+
+.forward-btn:hover {
+    background: linear-gradient(to right, #33cccc, #009999);
+    color: #FFF;
+}

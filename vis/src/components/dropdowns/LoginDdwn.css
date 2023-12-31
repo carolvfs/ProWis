@@ -1,0 +1,60 @@
+.loginBtn {
+    /* display: inline-block; */
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 300;
+    padding: 6px 10px 6px 10px;
+    margin: 5px;
+
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.loginItem {
+    color : hsl(0, 0%, 30%);
+    cursor: pointer;
+}
+
+.loginTitle {
+    color: hsl(0, 0%, 29%);
+}
+
+.loginIcon {
+    margin-right: 8px;
+}
+
+.loginBtn:hover  {
+    background: linear-gradient(to right, #33cccc, #009999);
+    color: #FFF;
+}
+
+.loginItem:active {
+    background-color: var(--theme-color-2);
+}
+
+.loginBtnLabel {
+    color: grey;
+}
+
+.loginUpdateBtn {
+    background-color: hsl(180, 100%, 30%);
+    color: #FFF;
+}
+
+.loginUpdateBtn:hover {
+    background-color: var(--theme-color-2);
+    color: #FFF;
+}
+
+.loginInput:focus {
+    box-shadow: 0px 0px 0px grey;
+    border-color: grey;
+}
+
+.loginClose:focus {
+    box-shadow: none;
+}
+
+.login-modal-label {
+    color: grey;
+}

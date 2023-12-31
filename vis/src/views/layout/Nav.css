@@ -1,0 +1,12 @@
+aside.menu-area {
+    background-color: var(--theme-color);
+    font-size: 1.0rem;
+}
+
+.res{
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    /* font-weight: 300; */
+    }  

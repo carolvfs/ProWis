@@ -1,0 +1,34 @@
+.physics-btn {
+    min-width: 100px;
+    padding: 6px 10px 6px 10px;
+    border-radius: 3px;
+
+    border-color: rgba(128, 128, 128, 0.598);
+    font-size: 14px;
+    margin: 5px;
+
+    color: hsl(0, 1%, 30%);
+
+}
+
+
+.physics-btn:active {
+    box-shadow: none;
+    background-color: var(--theme-color-2);
+}
+
+.physics-btn:hover {
+    background-color: var(--theme-color-2);
+    color: grey;
+}
+
+.physics-item {
+    color : hsl(0, 0%, 30%);
+    cursor: pointer;
+    font-style: normal;
+}
+
+.physics-item:active {
+    background-color: var(--theme-color-2);
+  
+}

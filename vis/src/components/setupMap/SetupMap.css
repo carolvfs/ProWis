@@ -1,0 +1,20 @@
+.setup-map-svg {
+    max-width: 800;
+    filter: drop-shadow( 0 0 0.4rem rgba(0, 0, 0, .7));
+    background-color:#043E5B;
+    border-radius: 5px;
+    border: 2px solid var(--theme-color);
+}
+
+.setup-map-svg-group-wrapper {
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, .7));
+}
+
+.setup-tjon{
+    fill: #2F9D55;
+    stroke-width: .8px;
+    stroke: whitesmoke;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    
+}

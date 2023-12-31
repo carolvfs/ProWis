@@ -1,0 +1,31 @@
+.small-dropdown-btn {
+  background-color: white;
+  border-color: hsla(0, 0%, 50%, 0.598);
+  border-radius: 4px;
+  font-size    : 10px;
+  margin: 5px;
+  color: hsl(0, 0%, 40%);
+
+}
+
+.small-dropdown-btn:hover, .small-dropdown-btn:focus {
+  /* background-color: rgb(144, 145, 145); */
+  background-color: var(--theme-color-2);
+  border-color: var(--theme-color-2);
+  color: white;
+
+}
+
+.small-dropdown-ul {
+  opacity:0.8;
+}
+    
+.small-dropdown-item {
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.small-dropdown-item:active {
+  background-color: var(--theme-color-2);
+
+}

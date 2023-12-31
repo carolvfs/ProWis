@@ -1,0 +1,10 @@
+
+.legend-rect {
+    stroke:grey;
+    stroke-width: 0.5px;
+    
+}
+
+.legend-axis-group, .legend-unit {
+    font-size: xx-small;
+}

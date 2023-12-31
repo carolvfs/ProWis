@@ -1,0 +1,10 @@
+.sunburst-svg {
+    /* background-color: aquamarine; */
+    position: absolute;
+    margin-top: 5px;
+
+}
+
+.sb-path {
+    cursor:pointer;
+}

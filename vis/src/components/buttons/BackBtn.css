@@ -1,0 +1,19 @@
+.back-btn {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: 380;
+    padding: 5px 8px 5px 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    /* font-size: small; */
+}
+
+.back-btn-icon {
+    margin-right: 8px;
+}
+
+.back-btn:hover {
+    background: linear-gradient(to right, #33cccc, #009999);
+    color: #FFF;
+}

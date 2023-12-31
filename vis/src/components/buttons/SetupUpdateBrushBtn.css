@@ -1,0 +1,32 @@
+.setup-update-btn {
+    background-color: burlywood;
+    color           : hsl(180, 60%, 20%);
+    
+    /* background-color: hsl(180, 60%, 20%); */
+    border          : 1.0px solid hsl(180, 60%, 25%);
+    font-size       : 14px;
+    /* color           : hsl(160, 29%, 77%); */
+    height          : 30px;
+}
+
+.setup-update-btn:hover {
+    background-color: var(--theme-color-2);
+    color: white;
+}
+
+.setup-update-label {
+    color: grey;
+}
+
+.setup-update-OkBtn {
+    background-color: hsl(180, 100%, 30%);
+    color: #FFF;
+}
+
+.setup-update-OkBtn:hover {
+    background-color: var(--theme-color-2);
+    color: #FFF;
+}
+
+
+
